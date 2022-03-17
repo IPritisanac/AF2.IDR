@@ -1,4 +1,19 @@
 Data and code associated with FIG 5 
 
-To extract IDRs from sequence alignment files in fasta format run:
-  1. get_idrs_from_alignment.py 
+To generate IDR alignments and analyse them (as presented in Fig 5 D&E):
+
+1. Run get_idrs_from_alignment.py
+	> python get_idrs_from_alignment.py IDR_SEQ_ALIGNMENTS/ pLDDT_IDRS/UP000005640_9606_HUMAN_pLDDT_scores_DISORDERED_THRESH_above_70_JOINT_CONSECUTIVE_MIN_10AA.out.txt IDR_SEQ_ALIGNMENTS/pLDDT_ABOVE_70/
+2. Run analyse_idr_alignment.py on directory containing IDR sequence alignments of interest
+	>python analyse_idr_alignment.py IDR_SEQ_ALIGNMENTS/pLDDT_ABOVE_70/
+
+To compute positional sequence conservation of IDR sequence alignments and analyse them (as presented in Fig5 F):
+
+1. Run positional sequence conservation using adaptation of code from Capra JA and Singh M.** (run_score_conservation.py, which calls score_conservation_IDR.py):
+	> python run_score_conservation.py IDR_SEQ_ALIGNMENTS/pLDDT_ABOVE_70/
+2. Run analyse_idr_conservation.py on directory containing ‘*_CONS.out.txt’ files from the previous step
+	>python analyse_idr_conservation.py IDR_SEQ_ALIGNMENTS/pLDDT_ABOVE_70/
+
+**For more details on the software from Capra & Singh see (README_SCORE_CONSERVATION.txt)
+
+Directories D&E and F contain data presented in panels D&E and F of the Figure 5

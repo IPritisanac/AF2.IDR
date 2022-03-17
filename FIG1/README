@@ -1,0 +1,5 @@
+Data and code associated with FIG 5
+
+To split per residue pLDDT scores based on SPOTD predictions
+1) Run 
+  > python ...

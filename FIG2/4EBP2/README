@@ -1,1 +1,3 @@
+bmrb2sparky.py converts an NMR-Star BMRB file into Sparky/TALOS/SSP format files
 
+plot_sparta.py converts SPARTA+ predicted chemical shifts into SSP format files (and also plots the data)

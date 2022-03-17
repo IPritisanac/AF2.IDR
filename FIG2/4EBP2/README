@@ -1,3 +1,10 @@
-bmrb2sparky.py converts an NMR-Star BMRB file into Sparky/TALOS/SSP format files
+--bmrb2sparky.py converts an NMR-Star BMRB file into Sparky/TALOS/SSP format files
+--plot_sparta.py converts SPARTA+ predicted chemical shifts into SSP format files (and also plots the data)
 
-plot_sparta.py converts SPARTA+ predicted chemical shifts into SSP format files (and also plots the data)
+input/ contains the input BMRB files, the input PDB files, and the amino acid sequence
+
+output/ contains the output files (SSP-format files: .ca for CA shifts, .cb for CB, etc)
+
+SSP/ contains the output files after running the SSP software
+
+disorder_prediction/ contains the results of 4 disorder predictors (metapredit, IUPred2A, DISOPRED3, SPOT-Disorder v1)

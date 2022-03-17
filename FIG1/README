@@ -1,5 +1,24 @@
-Data and code associated with FIG 5
+To generate the histogram of per-residue pLDDT scores as shown in Figure 1A:
 
-To split per residue pLDDT scores based on SPOTD predictions
-1) Run 
-  > python ...
+Step #1
+-- i. download the human AFDB (4.83 GB from: https://alphafold.ebi.ac.uk/download#proteomes-section), uncompress the .tar into a directory named "UP000005640_9606_HUMAN"
+	--> the files within UP000005640_9606_HUMAN should be *.pdb.gz and *.cif.gz
+-- ii. if you have DSSP installed (e.g., https://anaconda.org/salilab/dssp only works for Mac and Linux), type "python read_AF_DSSP.py"
+-- iii. if you do not have DSSP installed, type "python read_AF.py"
+
+output: a four- or five-column file in out/ with UniProt ID, residue number, residue type, pLDDT score, and DSSP assignment (optional)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Step #2
+-- type "python split_by_order.py"
+-- this script reads the output from step #1 (per-residue pLDDTT scores) and the predicted disordered regions
+
+output: the per-residue pLDDT scores split into ordered and disordered regions. 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Step #3
+-- type "python plot.py"
+
+output: histogram and zoomed-in histogram of per-residue pLDDT scores for disordered and ordered regions of the proteome, also an output file with statistics

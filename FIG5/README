@@ -1,10 +1,10 @@
 Data and code associated with FIG 5 
 
 To run BLASTP on the PDB sequence files and analyse results (as presented in Fig 5 C):
-1. Run run_blastp.sh, with PDB sequence database file on path (
-	> ./run_blastp.sh 
-	
-
+1. Run run_blastp.sh, with PDB sequence database file available on path
+	> ./run_blastp.sh HUMAN_IDRS/
+2. Process BLASTP results given hits from the previous step and E-value threshold
+	> python blastp_processing.py HUMAN_IDRS/ 0.0001
 
 To generate IDR alignments and analyse them (as presented in Fig 5 D&E):
 

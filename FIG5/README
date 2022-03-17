@@ -1,3 +1,4 @@
-Files 
+Data and code associated with FIG 5 
 
-  contain data associated with FIG 5 panels D/E/F
+To extract IDRs from sequence alignment files in fasta format run:
+  1. get_idrs_from_alignment.py 

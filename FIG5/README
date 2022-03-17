@@ -1,5 +1,11 @@
 Data and code associated with FIG 5 
 
+To run BLASTP on the PDB sequence files and analyse results (as presented in Fig 5 C):
+1. Run run_blastp.sh, with PDB sequence database file on path (
+	> ./run_blastp.sh 
+	
+
+
 To generate IDR alignments and analyse them (as presented in Fig 5 D&E):
 
 1. Run get_idrs_from_alignment.py

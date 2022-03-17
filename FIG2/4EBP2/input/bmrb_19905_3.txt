@@ -1,0 +1,1706 @@
+data_19905
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             19905
+   _Entry.Title                         
+;
+Phosphorylated 4E-BP2
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2014-04-10
+   _Entry.Accession_date                 2014-04-10
+   _Entry.Last_release_date              .
+   _Entry.Original_release_date          .
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    solution
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 Alaji Bah        . . . 19905 
+      2 Julie Forman-Kay . . . 19905 
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+      1 . 'TB Structural Genomics Consortium' . 19905 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts 1 19905 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts' 299 19905 
+      '1H chemical shifts'  216 19905 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      2 . . 2015-02-27 2014-04-10 update   BMRB   'update entry citation' 19905 
+      1 . . 2014-12-09 2014-04-10 original author 'original release'      19905 
+
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      BMRB 19114 4E-BP2 19905 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     19905
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    25533957
+   _Citation.Full_citation                .
+   _Citation.Title                       'Folding of an intrinsically disordered protein by phosphorylation as a regulatory switch'
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               Nature
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               519
+   _Citation.Journal_issue                .
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   106
+   _Citation.Page_last                    109
+   _Citation.Year                         2015
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 Alaji   Bah        . . . 19905 1 
+      2 Robert  Vernon     . . . 19905 1 
+      3 Zeba    Siddiqui   . . . 19905 1 
+      4 Mickael Krzeminski . . . 19905 1 
+      5 Ranjith Muhandiram . . . 19905 1 
+      6 Charlie Zhao       . . . 19905 1 
+      7 Nahum   Sonenberg  . . . 19905 1 
+      8 Lewis   Kay        . . . 19905 1 
+      9 Julie   Forman-Kay . . . 19905 1 
+
+   stop_
+
+   loop_
+      _Citation_keyword.Keyword
+      _Citation_keyword.Entry_ID
+      _Citation_keyword.Citation_ID
+
+       folding                          19905 1 
+       IDPs                             19905 1 
+       NMR                              19905 1 
+      'Post translational modification' 19905 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          19905
+   _Assembly.ID                                1
+   _Assembly.Name                             'phosphorylated 4E-BP2 monomer'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              .
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 'phosphorylated 4E-BP2 monomer' 1 $Phosphorylated_4E-BP2 A . yes native no no . . . 19905 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_Phosphorylated_4E-BP2
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      Phosphorylated_4E-BP2
+   _Entity.Entry_ID                          19905
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              Phosphorylated_4E-BP2
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+MSSSAGSGHQPSQSRAIPTR
+TVAISDAAQLPHDYCTTPGG
+TLFSTTPGGTRIIYDRKFLL
+DRRNSPMAQTPPCHLPNIPG
+VTSPGTLIEDSKVEVNNLNN
+LNNHDRKHAVGDDAQFEMDI
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   yes
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                120
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                      'all free'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-11-25
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+       1 no BMRB        19114 .  4E-BP2                                                                                                                    . . . . . 100.00 128  98.33 100.00 1.49e-80 . . . . 19905 1 
+       2 no DBJ  BAG11409      . "eukaryotic translation initiation factor 4E-binding protein 2 [synthetic construct]"                                      . . . . . 100.00 120 100.00 100.00 3.96e-82 . . . . 19905 1 
+       3 no DBJ  BAG36466      . "unnamed protein product [Homo sapiens]"                                                                                   . . . . . 100.00 120  99.17  99.17 4.00e-81 . . . . 19905 1 
+       4 no EMBL CAG47036      . "EIF4EBP2 [Homo sapiens]"                                                                                                  . . . . . 100.00 120  99.17  99.17 1.78e-81 . . . . 19905 1 
+       5 no GB   AAA62270      . "4E-binding protein 2 [Homo sapiens]"                                                                                      . . . . . 100.00 120 100.00 100.00 3.96e-82 . . . . 19905 1 
+       6 no GB   AAH05057      . "Eukaryotic translation initiation factor 4E binding protein 2 [Homo sapiens]"                                             . . . . . 100.00 120 100.00 100.00 3.96e-82 . . . . 19905 1 
+       7 no GB   AAH50633      . "Eukaryotic translation initiation factor 4E binding protein 2 [Homo sapiens]"                                             . . . . . 100.00 120 100.00 100.00 3.96e-82 . . . . 19905 1 
+       8 no GB   AAP35981      . "eukaryotic translation initiation factor 4E binding protein 2 [Homo sapiens]"                                             . . . . . 100.00 120 100.00 100.00 3.96e-82 . . . . 19905 1 
+       9 no GB   AAX32712      . "eukaryotic translation initiation factor 4E binding protein 2 [synthetic construct]"                                      . . . . . 100.00 120 100.00 100.00 3.96e-82 . . . . 19905 1 
+      10 no PRF  2021415B      . "initiation factor 4E-binding protein:ISOTYPE=2"                                                                           . . . . . 100.00 120 100.00 100.00 3.96e-82 . . . . 19905 1 
+      11 no REF  NP_001178078  . "eukaryotic translation initiation factor 4E-binding protein 2 [Bos taurus]"                                               . . . . . 100.00 120  99.17  99.17 3.75e-81 . . . . 19905 1 
+      12 no REF  NP_001244839  . "eukaryotic translation initiation factor 4E-binding protein 2 [Macaca mulatta]"                                           . . . . . 100.00 120 100.00 100.00 3.96e-82 . . . . 19905 1 
+      13 no REF  NP_004087     . "eukaryotic translation initiation factor 4E-binding protein 2 [Homo sapiens]"                                             . . . . . 100.00 120 100.00 100.00 3.96e-82 . . . . 19905 1 
+      14 no REF  XP_002718482  . "PREDICTED: eukaryotic translation initiation factor 4E-binding protein 2 [Oryctolagus cuniculus]"                         . . . . . 100.00 120  99.17  99.17 3.75e-81 . . . . 19905 1 
+      15 no REF  XP_002756317  . "PREDICTED: eukaryotic translation initiation factor 4E-binding protein 2 isoform X2 [Callithrix jacchus]"                 . . . . . 100.00 120  98.33  99.17 1.08e-80 . . . . 19905 1 
+      16 no SP   Q13542        . "RecName: Full=Eukaryotic translation initiation factor 4E-binding protein 2; Short=4E-BP2; Short=eIF4E-binding protein 2" . . . . . 100.00 120 100.00 100.00 3.96e-82 . . . . 19905 1 
+      17 no TPG  DAA14291      . "TPA: eukaryotic translation initiation factor 4E binding protein 2-like [Bos taurus]"                                     . . . . . 100.00 120  99.17  99.17 3.75e-81 . . . . 19905 1 
+
+   stop_
+
+   loop_
+      _Entity_biological_function.Biological_function
+      _Entity_biological_function.Entry_ID
+      _Entity_biological_function.Entity_ID
+
+      'Regulation of eukaryotic translation initiation' 19905 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+        1 . MET . 19905 1 
+        2 . SER . 19905 1 
+        3 . SER . 19905 1 
+        4 . SER . 19905 1 
+        5 . ALA . 19905 1 
+        6 . GLY . 19905 1 
+        7 . SER . 19905 1 
+        8 . GLY . 19905 1 
+        9 . HIS . 19905 1 
+       10 . GLN . 19905 1 
+       11 . PRO . 19905 1 
+       12 . SER . 19905 1 
+       13 . GLN . 19905 1 
+       14 . SER . 19905 1 
+       15 . ARG . 19905 1 
+       16 . ALA . 19905 1 
+       17 . ILE . 19905 1 
+       18 . PRO . 19905 1 
+       19 . THR . 19905 1 
+       20 . ARG . 19905 1 
+       21 . THR . 19905 1 
+       22 . VAL . 19905 1 
+       23 . ALA . 19905 1 
+       24 . ILE . 19905 1 
+       25 . SER . 19905 1 
+       26 . ASP . 19905 1 
+       27 . ALA . 19905 1 
+       28 . ALA . 19905 1 
+       29 . GLN . 19905 1 
+       30 . LEU . 19905 1 
+       31 . PRO . 19905 1 
+       32 . HIS . 19905 1 
+       33 . ASP . 19905 1 
+       34 . TYR . 19905 1 
+       35 . CYS . 19905 1 
+       36 . THR . 19905 1 
+       37 . THR . 19905 1 
+       38 . PRO . 19905 1 
+       39 . GLY . 19905 1 
+       40 . GLY . 19905 1 
+       41 . THR . 19905 1 
+       42 . LEU . 19905 1 
+       43 . PHE . 19905 1 
+       44 . SER . 19905 1 
+       45 . THR . 19905 1 
+       46 . THR . 19905 1 
+       47 . PRO . 19905 1 
+       48 . GLY . 19905 1 
+       49 . GLY . 19905 1 
+       50 . THR . 19905 1 
+       51 . ARG . 19905 1 
+       52 . ILE . 19905 1 
+       53 . ILE . 19905 1 
+       54 . TYR . 19905 1 
+       55 . ASP . 19905 1 
+       56 . ARG . 19905 1 
+       57 . LYS . 19905 1 
+       58 . PHE . 19905 1 
+       59 . LEU . 19905 1 
+       60 . LEU . 19905 1 
+       61 . ASP . 19905 1 
+       62 . ARG . 19905 1 
+       63 . ARG . 19905 1 
+       64 . ASN . 19905 1 
+       65 . SER . 19905 1 
+       66 . PRO . 19905 1 
+       67 . MET . 19905 1 
+       68 . ALA . 19905 1 
+       69 . GLN . 19905 1 
+       70 . THR . 19905 1 
+       71 . PRO . 19905 1 
+       72 . PRO . 19905 1 
+       73 . CYS . 19905 1 
+       74 . HIS . 19905 1 
+       75 . LEU . 19905 1 
+       76 . PRO . 19905 1 
+       77 . ASN . 19905 1 
+       78 . ILE . 19905 1 
+       79 . PRO . 19905 1 
+       80 . GLY . 19905 1 
+       81 . VAL . 19905 1 
+       82 . THR . 19905 1 
+       83 . SER . 19905 1 
+       84 . PRO . 19905 1 
+       85 . GLY . 19905 1 
+       86 . THR . 19905 1 
+       87 . LEU . 19905 1 
+       88 . ILE . 19905 1 
+       89 . GLU . 19905 1 
+       90 . ASP . 19905 1 
+       91 . SER . 19905 1 
+       92 . LYS . 19905 1 
+       93 . VAL . 19905 1 
+       94 . GLU . 19905 1 
+       95 . VAL . 19905 1 
+       96 . ASN . 19905 1 
+       97 . ASN . 19905 1 
+       98 . LEU . 19905 1 
+       99 . ASN . 19905 1 
+      100 . ASN . 19905 1 
+      101 . LEU . 19905 1 
+      102 . ASN . 19905 1 
+      103 . ASN . 19905 1 
+      104 . HIS . 19905 1 
+      105 . ASP . 19905 1 
+      106 . ARG . 19905 1 
+      107 . LYS . 19905 1 
+      108 . HIS . 19905 1 
+      109 . ALA . 19905 1 
+      110 . VAL . 19905 1 
+      111 . GLY . 19905 1 
+      112 . ASP . 19905 1 
+      113 . ASP . 19905 1 
+      114 . ALA . 19905 1 
+      115 . GLN . 19905 1 
+      116 . PHE . 19905 1 
+      117 . GLU . 19905 1 
+      118 . MET . 19905 1 
+      119 . ASP . 19905 1 
+      120 . ILE . 19905 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . MET   1   1 19905 1 
+      . SER   2   2 19905 1 
+      . SER   3   3 19905 1 
+      . SER   4   4 19905 1 
+      . ALA   5   5 19905 1 
+      . GLY   6   6 19905 1 
+      . SER   7   7 19905 1 
+      . GLY   8   8 19905 1 
+      . HIS   9   9 19905 1 
+      . GLN  10  10 19905 1 
+      . PRO  11  11 19905 1 
+      . SER  12  12 19905 1 
+      . GLN  13  13 19905 1 
+      . SER  14  14 19905 1 
+      . ARG  15  15 19905 1 
+      . ALA  16  16 19905 1 
+      . ILE  17  17 19905 1 
+      . PRO  18  18 19905 1 
+      . THR  19  19 19905 1 
+      . ARG  20  20 19905 1 
+      . THR  21  21 19905 1 
+      . VAL  22  22 19905 1 
+      . ALA  23  23 19905 1 
+      . ILE  24  24 19905 1 
+      . SER  25  25 19905 1 
+      . ASP  26  26 19905 1 
+      . ALA  27  27 19905 1 
+      . ALA  28  28 19905 1 
+      . GLN  29  29 19905 1 
+      . LEU  30  30 19905 1 
+      . PRO  31  31 19905 1 
+      . HIS  32  32 19905 1 
+      . ASP  33  33 19905 1 
+      . TYR  34  34 19905 1 
+      . CYS  35  35 19905 1 
+      . THR  36  36 19905 1 
+      . THR  37  37 19905 1 
+      . PRO  38  38 19905 1 
+      . GLY  39  39 19905 1 
+      . GLY  40  40 19905 1 
+      . THR  41  41 19905 1 
+      . LEU  42  42 19905 1 
+      . PHE  43  43 19905 1 
+      . SER  44  44 19905 1 
+      . THR  45  45 19905 1 
+      . THR  46  46 19905 1 
+      . PRO  47  47 19905 1 
+      . GLY  48  48 19905 1 
+      . GLY  49  49 19905 1 
+      . THR  50  50 19905 1 
+      . ARG  51  51 19905 1 
+      . ILE  52  52 19905 1 
+      . ILE  53  53 19905 1 
+      . TYR  54  54 19905 1 
+      . ASP  55  55 19905 1 
+      . ARG  56  56 19905 1 
+      . LYS  57  57 19905 1 
+      . PHE  58  58 19905 1 
+      . LEU  59  59 19905 1 
+      . LEU  60  60 19905 1 
+      . ASP  61  61 19905 1 
+      . ARG  62  62 19905 1 
+      . ARG  63  63 19905 1 
+      . ASN  64  64 19905 1 
+      . SER  65  65 19905 1 
+      . PRO  66  66 19905 1 
+      . MET  67  67 19905 1 
+      . ALA  68  68 19905 1 
+      . GLN  69  69 19905 1 
+      . THR  70  70 19905 1 
+      . PRO  71  71 19905 1 
+      . PRO  72  72 19905 1 
+      . CYS  73  73 19905 1 
+      . HIS  74  74 19905 1 
+      . LEU  75  75 19905 1 
+      . PRO  76  76 19905 1 
+      . ASN  77  77 19905 1 
+      . ILE  78  78 19905 1 
+      . PRO  79  79 19905 1 
+      . GLY  80  80 19905 1 
+      . VAL  81  81 19905 1 
+      . THR  82  82 19905 1 
+      . SER  83  83 19905 1 
+      . PRO  84  84 19905 1 
+      . GLY  85  85 19905 1 
+      . THR  86  86 19905 1 
+      . LEU  87  87 19905 1 
+      . ILE  88  88 19905 1 
+      . GLU  89  89 19905 1 
+      . ASP  90  90 19905 1 
+      . SER  91  91 19905 1 
+      . LYS  92  92 19905 1 
+      . VAL  93  93 19905 1 
+      . GLU  94  94 19905 1 
+      . VAL  95  95 19905 1 
+      . ASN  96  96 19905 1 
+      . ASN  97  97 19905 1 
+      . LEU  98  98 19905 1 
+      . ASN  99  99 19905 1 
+      . ASN 100 100 19905 1 
+      . LEU 101 101 19905 1 
+      . ASN 102 102 19905 1 
+      . ASN 103 103 19905 1 
+      . HIS 104 104 19905 1 
+      . ASP 105 105 19905 1 
+      . ARG 106 106 19905 1 
+      . LYS 107 107 19905 1 
+      . HIS 108 108 19905 1 
+      . ALA 109 109 19905 1 
+      . VAL 110 110 19905 1 
+      . GLY 111 111 19905 1 
+      . ASP 112 112 19905 1 
+      . ASP 113 113 19905 1 
+      . ALA 114 114 19905 1 
+      . GLN 115 115 19905 1 
+      . PHE 116 116 19905 1 
+      . GLU 117 117 19905 1 
+      . MET 118 118 19905 1 
+      . ASP 119 119 19905 1 
+      . ILE 120 120 19905 1 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       19905
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $Phosphorylated_4E-BP2 . 9606 organism . 'Homo sapiens' Human . . Eukaryota Metazoa Homo sapiens . . . . . . . . . . . . . . . . . . . . . 19905 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       19905
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $Phosphorylated_4E-BP2 . 'recombinant technology' 'Escherichia coli' . . . Escherichia coli . . . . . . . . . . . . . . . . 'pET SUMO' . . . . . . 19905 1 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         19905
+   _Sample.ID                               1
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                  '90% H2O/10% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 'Phosphorylated 4E-BP2' '[U-99% 13C; U-99% 15N]' . . 1 $Phosphorylated_4E-BP2 . .   1 . . mM . . . . 19905 1 
+      2  DTT                    'natural abundance'      . .  .  .                     . .   2 . . mM . . . . 19905 1 
+      3 'sodium chloride'       'natural abundance'      . .  .  .                     . . 100 . . mM . . . . 19905 1 
+      4 'sodium phosphate'      'natural abundance'      . .  .  .                     . .  30 . . mM . . . . 19905 1 
+      5  EDTA                   'natural abundance'      . .  .  .                     . .   1 . . mM . . . . 19905 1 
+      6  Benzamidine            'natural abundance'      . .  .  .                     . .   1 . . mM . . . . 19905 1 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       19905
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   0.150 . M   19905 1 
+       pH                6.0   . pH  19905 1 
+       pressure          1     . atm 19905 1 
+       temperature     293     . K   19905 1 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_NMRPipe
+   _Software.Sf_category    software
+   _Software.Sf_framecode   NMRPipe
+   _Software.Entry_ID       19905
+   _Software.ID             1
+   _Software.Name           NMRPipe
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Delaglio, Grzesiek, Vuister, Zhu, Pfeifer and Bax' . . 19905 1 
+       Goddard                                            . . 19905 1 
+      'Shen, Vernon, Baker and Bax'                       . . 19905 1 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'chemical shift assignment' 19905 1 
+       processing                 19905 1 
+      'structure solution'        19905 1 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         19905
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            INOVA
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   500
+
+save_
+
+
+save_spectrometer_2
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_2
+   _NMR_spectrometer.Entry_ID         19905
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            INOVA
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+
+save_
+
+
+save_spectrometer_3
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_3
+   _NMR_spectrometer.Entry_ID         19905
+   _NMR_spectrometer.ID               3
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            INOVA
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   800
+
+save_
+
+
+save_spectrometer_4
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_4
+   _NMR_spectrometer.Entry_ID         19905
+   _NMR_spectrometer.ID               4
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            INOVA
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   500
+
+save_
+
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       19905
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 spectrometer_1 Varian INOVA . 500 . . . 19905 1 
+      2 spectrometer_2 Varian INOVA . 600 . . . 19905 1 
+      3 spectrometer_3 Varian INOVA . 800 . . . 19905 1 
+      4 spectrometer_4 Varian INOVA . 500 . . . 19905 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       19905
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 '2D 1H-15N HSQC'  no . . . . . . . . . . 1 $sample_1 isotropic . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 19905 1 
+      2 '3D HNCO'         no . . . . . . . . . . 1 $sample_1 isotropic . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 19905 1 
+      3 '3D H(CCO)NH'     no . . . . . . . . . . 1 $sample_1 isotropic . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 19905 1 
+      4 '3D 1H-15N NOESY' no . . . . . . . . . . 1 $sample_1 isotropic . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 19905 1 
+      5 '3D CBCA(CO)NH'   no . . . . . . . . . . 1 $sample_1 isotropic . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 19905 1 
+      6 '3D 1H-13C NOESY' no . . . . . . . . . . 1 $sample_1 isotropic . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 19905 1 
+
+   stop_
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_DSS
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   DSS
+   _Chem_shift_reference.Entry_ID       19905
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      H 1 DSS 'methyl protons' . . . . ppm 0 internal direct 1 . . . . . . . . . 19905 1 
+
+   stop_
+
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      19905
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $DSS
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1 '2D 1H-15N HSQC' . . . 19905 1 
+      2 '3D HNCO'        . . . 19905 1 
+      3 '3D H(CCO)NH'    . . . 19905 1 
+      5 '3D CBCA(CO)NH'  . . . 19905 1 
+
+   stop_
+
+   loop_
+      _Chem_shift_software.Software_ID
+      _Chem_shift_software.Software_label
+      _Chem_shift_software.Method_ID
+      _Chem_shift_software.Method_label
+      _Chem_shift_software.Entry_ID
+      _Chem_shift_software.Assigned_chem_shift_list_ID
+
+      1 $NMRPipe . . 19905 1 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+        1 . 1 1   1   1 MET HA  H  1   4.563 . . . . . . .   1 M HA  . 19905 1 
+        2 . 1 1   1   1 MET C   C 13 176.219 . . . . . . .   1 M CO  . 19905 1 
+        3 . 1 1   2   2 SER H   H  1   8.654 . . . . . . .   2 S HN  . 19905 1 
+        4 . 1 1   2   2 SER C   C 13 174.852 . . . . . . .   2 S CO  . 19905 1 
+        5 . 1 1   2   2 SER CB  C 13  63.752 . . . . . . .   2 S CB  . 19905 1 
+        6 . 1 1   3   3 SER H   H  1   8.591 . . . . . . .   3 S HN  . 19905 1 
+        7 . 1 1   3   3 SER HA  H  1   4.51  . . . . . . .   3 S HA  . 19905 1 
+        8 . 1 1   3   3 SER C   C 13 174.77  . . . . . . .   3 S CO  . 19905 1 
+        9 . 1 1   3   3 SER CA  C 13  58.474 . . . . . . .   3 S CA  . 19905 1 
+       10 . 1 1   3   3 SER CB  C 13  63.82  . . . . . . .   3 S CB  . 19905 1 
+       11 . 1 1   4   4 SER H   H  1   8.547 . . . . . . .   4 S HN  . 19905 1 
+       12 . 1 1   4   4 SER HA  H  1   4.456 . . . . . . .   4 S HA  . 19905 1 
+       13 . 1 1   4   4 SER C   C 13 174.489 . . . . . . .   4 S CO  . 19905 1 
+       14 . 1 1   4   4 SER CA  C 13  58.38  . . . . . . .   4 S CA  . 19905 1 
+       15 . 1 1   4   4 SER CB  C 13  63.62  . . . . . . .   4 S CB  . 19905 1 
+       16 . 1 1   5   5 ALA H   H  1   8.466 . . . . . . .   5 A HN  . 19905 1 
+       17 . 1 1   5   5 ALA HA  H  1   4.333 . . . . . . .   5 A HA  . 19905 1 
+       18 . 1 1   5   5 ALA C   C 13 178.301 . . . . . . .   5 A CO  . 19905 1 
+       19 . 1 1   5   5 ALA CA  C 13  52.93  . . . . . . .   5 A CA  . 19905 1 
+       20 . 1 1   5   5 ALA CB  C 13  19.21  . . . . . . .   5 A CB  . 19905 1 
+       21 . 1 1   6   6 GLY H   H  1   8.508 . . . . . . .   6 G HN  . 19905 1 
+       22 . 1 1   6   6 GLY HA2 H  1   3.993 . . . . . . .   6 G HA# . 19905 1 
+       23 . 1 1   6   6 GLY HA3 H  1   3.993 . . . . . . .   6 G HA# . 19905 1 
+       24 . 1 1   6   6 GLY C   C 13 174.424 . . . . . . .   6 G CO  . 19905 1 
+       25 . 1 1   6   6 GLY CA  C 13  45.345 . . . . . . .   6 G CA  . 19905 1 
+       26 . 1 1   7   7 SER H   H  1   8.411 . . . . . . .   7 S HN  . 19905 1 
+       27 . 1 1   7   7 SER HA  H  1   4.443 . . . . . . .   7 S HA  . 19905 1 
+       28 . 1 1   7   7 SER C   C 13 175.181 . . . . . . .   7 S CO  . 19905 1 
+       29 . 1 1   7   7 SER CA  C 13  58.548 . . . . . . .   7 S CA  . 19905 1 
+       30 . 1 1   7   7 SER CB  C 13  63.866 . . . . . . .   7 S CB  . 19905 1 
+       31 . 1 1   8   8 GLY H   H  1   8.642 . . . . . . .   8 G HN  . 19905 1 
+       32 . 1 1   8   8 GLY HA2 H  1   3.932 . . . . . . .   8 G HA# . 19905 1 
+       33 . 1 1   8   8 GLY HA3 H  1   3.932 . . . . . . .   8 G HA# . 19905 1 
+       34 . 1 1   8   8 GLY CA  C 13  45.315 . . . . . . .   8 G CA  . 19905 1 
+       35 . 1 1   9   9 HIS H   H  1   8.453 . . . . . . .   9 H HN  . 19905 1 
+       36 . 1 1   9   9 HIS HA  H  1   4.684 . . . . . . .   9 H HA  . 19905 1 
+       37 . 1 1   9   9 HIS C   C 13 174.485 . . . . . . .   9 H CO  . 19905 1 
+       38 . 1 1   9   9 HIS CA  C 13  55.307 . . . . . . .   9 H CA  . 19905 1 
+       39 . 1 1   9   9 HIS CB  C 13  29.609 . . . . . . .   9 H CB  . 19905 1 
+       40 . 1 1  10  10 GLN H   H  1   8.643 . . . . . . .  10 Q HN  . 19905 1 
+       41 . 1 1  10  10 GLN CA  C 13  53.729 . . . . . . .  10 Q CA  . 19905 1 
+       42 . 1 1  10  10 GLN CB  C 13  28.898 . . . . . . .  10 Q CB  . 19905 1 
+       43 . 1 1  11  11 PRO HA  H  1   4.448 . . . . . . .  11 P HA  . 19905 1 
+       44 . 1 1  11  11 PRO C   C 13 177.012 . . . . . . .  11 P CO  . 19905 1 
+       45 . 1 1  12  12 SER H   H  1   8.65  . . . . . . .  12 S HN  . 19905 1 
+       46 . 1 1  12  12 SER HA  H  1   4.385 . . . . . . .  12 S HA  . 19905 1 
+       47 . 1 1  12  12 SER C   C 13 174.807 . . . . . . .  12 S CO  . 19905 1 
+       48 . 1 1  12  12 SER CA  C 13  58.56  . . . . . . .  12 S CA  . 19905 1 
+       49 . 1 1  12  12 SER CB  C 13  63.77  . . . . . . .  12 S CB  . 19905 1 
+       50 . 1 1  13  13 GLN H   H  1   8.576 . . . . . . .  13 Q HN  . 19905 1 
+       51 . 1 1  13  13 GLN HA  H  1   4.383 . . . . . . .  13 Q HA  . 19905 1 
+       52 . 1 1  13  13 GLN C   C 13 176.007 . . . . . . .  13 Q CO  . 19905 1 
+       53 . 1 1  13  13 GLN CA  C 13  55.93  . . . . . . .  13 Q CA  . 19905 1 
+       54 . 1 1  13  13 GLN CB  C 13  29.53  . . . . . . .  13 Q CB  . 19905 1 
+       55 . 1 1  14  14 SER H   H  1   8.496 . . . . . . .  14 S HN  . 19905 1 
+       56 . 1 1  14  14 SER HA  H  1   4.39  . . . . . . .  14 S HA  . 19905 1 
+       57 . 1 1  14  14 SER C   C 13 174.679 . . . . . . .  14 S CO  . 19905 1 
+       58 . 1 1  14  14 SER CA  C 13  58.43  . . . . . . .  14 S CA  . 19905 1 
+       59 . 1 1  14  14 SER CB  C 13  63.69  . . . . . . .  14 S CB  . 19905 1 
+       60 . 1 1  15  15 ARG H   H  1   8.478 . . . . . . .  15 R HN  . 19905 1 
+       61 . 1 1  15  15 ARG CA  C 13  55.855 . . . . . . .  15 R CA  . 19905 1 
+       62 . 1 1  15  15 ARG CB  C 13  30.944 . . . . . . .  15 R CB  . 19905 1 
+       63 . 1 1  16  16 ALA H   H  1   8.466 . . . . . . .  16 A HN  . 19905 1 
+       64 . 1 1  16  16 ALA HA  H  1   4.599 . . . . . . .  16 A HA  . 19905 1 
+       65 . 1 1  16  16 ALA CA  C 13  52.151 . . . . . . .  16 A CA  . 19905 1 
+       66 . 1 1  16  16 ALA CB  C 13  19.318 . . . . . . .  16 A CB  . 19905 1 
+       67 . 1 1  17  17 ILE H   H  1   8.554 . . . . . . .  17 I HN  . 19905 1 
+       68 . 1 1  17  17 ILE CA  C 13  59.373 . . . . . . .  17 I CA  . 19905 1 
+       69 . 1 1  17  17 ILE CB  C 13  39.752 . . . . . . .  17 I CB  . 19905 1 
+       70 . 1 1  18  18 PRO HA  H  1   4.469 . . . . . . .  18 P HA  . 19905 1 
+       71 . 1 1  18  18 PRO C   C 13 176.056 . . . . . . .  18 P CO  . 19905 1 
+       72 . 1 1  19  19 THR H   H  1   8.294 . . . . . . .  19 T HN  . 19905 1 
+       73 . 1 1  19  19 THR HA  H  1   5.346 . . . . . . .  19 T HA  . 19905 1 
+       74 . 1 1  19  19 THR C   C 13 174.103 . . . . . . .  19 T CO  . 19905 1 
+       75 . 1 1  19  19 THR CA  C 13  60.712 . . . . . . .  19 T CA  . 19905 1 
+       76 . 1 1  19  19 THR CB  C 13  72.58  . . . . . . .  19 T CB  . 19905 1 
+       77 . 1 1  20  20 ARG H   H  1   8.929 . . . . . . .  20 R HN  . 19905 1 
+       78 . 1 1  20  20 ARG HA  H  1   4.586 . . . . . . .  20 R HA  . 19905 1 
+       79 . 1 1  20  20 ARG C   C 13 174.31  . . . . . . .  20 R CO  . 19905 1 
+       80 . 1 1  20  20 ARG CA  C 13  55.35  . . . . . . .  20 R CA  . 19905 1 
+       81 . 1 1  20  20 ARG CB  C 13  33.31  . . . . . . .  20 R CB  . 19905 1 
+       82 . 1 1  21  21 THR H   H  1   8.663 . . . . . . .  21 T HN  . 19905 1 
+       83 . 1 1  21  21 THR HA  H  1   5.062 . . . . . . .  21 T HA  . 19905 1 
+       84 . 1 1  21  21 THR C   C 13 174.475 . . . . . . .  21 T CO  . 19905 1 
+       85 . 1 1  21  21 THR CA  C 13  61.75  . . . . . . .  21 T CA  . 19905 1 
+       86 . 1 1  21  21 THR CB  C 13  70.064 . . . . . . .  21 T CB  . 19905 1 
+       87 . 1 1  22  22 VAL H   H  1   9.046 . . . . . . .  22 V HN  . 19905 1 
+       88 . 1 1  22  22 VAL HA  H  1   4.254 . . . . . . .  22 V HA  . 19905 1 
+       89 . 1 1  22  22 VAL C   C 13 174.249 . . . . . . .  22 V CO  . 19905 1 
+       90 . 1 1  22  22 VAL CA  C 13  61.127 . . . . . . .  22 V CA  . 19905 1 
+       91 . 1 1  22  22 VAL CB  C 13  34.689 . . . . . . .  22 V CB  . 19905 1 
+       92 . 1 1  23  23 ALA H   H  1   8.81  . . . . . . .  23 A HN  . 19905 1 
+       93 . 1 1  23  23 ALA HA  H  1   4.252 . . . . . . .  23 A HA  . 19905 1 
+       94 . 1 1  23  23 ALA C   C 13 177.316 . . . . . . .  23 A CO  . 19905 1 
+       95 . 1 1  23  23 ALA CA  C 13  51.567 . . . . . . .  23 A CA  . 19905 1 
+       96 . 1 1  23  23 ALA CB  C 13  19.323 . . . . . . .  23 A CB  . 19905 1 
+       97 . 1 1  24  24 ILE H   H  1   8.554 . . . . . . .  24 I HN  . 19905 1 
+       98 . 1 1  24  24 ILE HA  H  1   4.604 . . . . . . .  24 I HA  . 19905 1 
+       99 . 1 1  24  24 ILE C   C 13 175.362 . . . . . . .  24 I CO  . 19905 1 
+      100 . 1 1  24  24 ILE CA  C 13  59.373 . . . . . . .  24 I CA  . 19905 1 
+      101 . 1 1  24  24 ILE CB  C 13  39.752 . . . . . . .  24 I CB  . 19905 1 
+      102 . 1 1  25  25 SER H   H  1   9.06  . . . . . . .  25 S HN  . 19905 1 
+      103 . 1 1  25  25 SER HA  H  1   4.576 . . . . . . .  25 S HA  . 19905 1 
+      104 . 1 1  25  25 SER C   C 13 173.636 . . . . . . .  25 S CO  . 19905 1 
+      105 . 1 1  25  25 SER CA  C 13  58.47  . . . . . . .  25 S CA  . 19905 1 
+      106 . 1 1  25  25 SER CB  C 13  64.42  . . . . . . .  25 S CB  . 19905 1 
+      107 . 1 1  26  26 ASP H   H  1   7.8   . . . . . . .  26 D HN  . 19905 1 
+      108 . 1 1  26  26 ASP HA  H  1   4.439 . . . . . . .  26 D HA  . 19905 1 
+      109 . 1 1  26  26 ASP C   C 13 175.424 . . . . . . .  26 D CO  . 19905 1 
+      110 . 1 1  26  26 ASP CA  C 13  53.63  . . . . . . .  26 D CA  . 19905 1 
+      111 . 1 1  26  26 ASP CB  C 13  44.237 . . . . . . .  26 D CB  . 19905 1 
+      112 . 1 1  27  27 ALA H   H  1   8.733 . . . . . . .  27 A HN  . 19905 1 
+      113 . 1 1  27  27 ALA HA  H  1   3.685 . . . . . . .  27 A HA  . 19905 1 
+      114 . 1 1  27  27 ALA C   C 13 178.614 . . . . . . .  27 A CO  . 19905 1 
+      115 . 1 1  27  27 ALA CA  C 13  54.44  . . . . . . .  27 A CA  . 19905 1 
+      116 . 1 1  27  27 ALA CB  C 13  18.286 . . . . . . .  27 A CB  . 19905 1 
+      117 . 1 1  28  28 ALA H   H  1   8.857 . . . . . . .  28 A HN  . 19905 1 
+      118 . 1 1  28  28 ALA HA  H  1   4.175 . . . . . . .  28 A HA  . 19905 1 
+      119 . 1 1  28  28 ALA C   C 13 178.315 . . . . . . .  28 A CO  . 19905 1 
+      120 . 1 1  28  28 ALA CA  C 13  53.61  . . . . . . .  28 A CA  . 19905 1 
+      121 . 1 1  28  28 ALA CB  C 13  18.48  . . . . . . .  28 A CB  . 19905 1 
+      122 . 1 1  29  29 GLN H   H  1   7.945 . . . . . . .  29 Q HN  . 19905 1 
+      123 . 1 1  29  29 GLN HA  H  1   4.187 . . . . . . .  29 Q HA  . 19905 1 
+      124 . 1 1  29  29 GLN CA  C 13  55.656 . . . . . . .  29 Q CA  . 19905 1 
+      125 . 1 1  29  29 GLN CB  C 13  29.56  . . . . . . .  29 Q CB  . 19905 1 
+      126 . 1 1  30  30 LEU H   H  1   7.538 . . . . . . .  30 L HN  . 19905 1 
+      127 . 1 1  30  30 LEU CA  C 13  53.03  . . . . . . .  30 L CA  . 19905 1 
+      128 . 1 1  30  30 LEU CB  C 13  41.366 . . . . . . .  30 L CB  . 19905 1 
+      129 . 1 1  31  31 PRO HA  H  1   4.494 . . . . . . .  31 P HA  . 19905 1 
+      130 . 1 1  31  31 PRO C   C 13 176.371 . . . . . . .  31 P CO  . 19905 1 
+      131 . 1 1  32  32 HIS H   H  1   8.812 . . . . . . .  32 H HN  . 19905 1 
+      132 . 1 1  32  32 HIS HA  H  1   4.393 . . . . . . .  32 H HA  . 19905 1 
+      133 . 1 1  32  32 HIS C   C 13 174.87  . . . . . . .  32 H CO  . 19905 1 
+      134 . 1 1  32  32 HIS CA  C 13  57.61  . . . . . . .  32 H CA  . 19905 1 
+      135 . 1 1  32  32 HIS CB  C 13  28.83  . . . . . . .  32 H CB  . 19905 1 
+      136 . 1 1  33  33 ASP H   H  1   8.31  . . . . . . .  33 D HN  . 19905 1 
+      137 . 1 1  33  33 ASP HA  H  1   4.596 . . . . . . .  33 D HA  . 19905 1 
+      138 . 1 1  33  33 ASP C   C 13 174.794 . . . . . . .  33 D CO  . 19905 1 
+      139 . 1 1  33  33 ASP CA  C 13  53     . . . . . . .  33 D CA  . 19905 1 
+      140 . 1 1  33  33 ASP CB  C 13  40.57  . . . . . . .  33 D CB  . 19905 1 
+      141 . 1 1  34  34 TYR H   H  1   7.434 . . . . . . .  34 Y HN  . 19905 1 
+      142 . 1 1  34  34 TYR HA  H  1   4.64  . . . . . . .  34 Y HA  . 19905 1 
+      143 . 1 1  34  34 TYR C   C 13 173.857 . . . . . . .  34 Y CO  . 19905 1 
+      144 . 1 1  34  34 TYR CA  C 13  57.23  . . . . . . .  34 Y CA  . 19905 1 
+      145 . 1 1  34  34 TYR CB  C 13  38.21  . . . . . . .  34 Y CB  . 19905 1 
+      146 . 1 1  35  35 CYS H   H  1   9.246 . . . . . . .  35 C HN  . 19905 1 
+      147 . 1 1  35  35 CYS HA  H  1   4.534 . . . . . . .  35 C HA  . 19905 1 
+      148 . 1 1  35  35 CYS C   C 13 172.585 . . . . . . .  35 C CO  . 19905 1 
+      149 . 1 1  35  35 CYS CA  C 13  57.21  . . . . . . .  35 C CA  . 19905 1 
+      150 . 1 1  35  35 CYS CB  C 13  30.93  . . . . . . .  35 C CB  . 19905 1 
+      151 . 1 1  36  36 THR H   H  1   8.306 . . . . . . .  36 T HN  . 19905 1 
+      152 . 1 1  36  36 THR HA  H  1   4.02  . . . . . . .  36 T HA  . 19905 1 
+      153 . 1 1  36  36 THR C   C 13 176.021 . . . . . . .  36 T CO  . 19905 1 
+      154 . 1 1  36  36 THR CA  C 13  60.03  . . . . . . .  36 T CA  . 19905 1 
+      155 . 1 1  36  36 THR CB  C 13  71.57  . . . . . . .  36 T CB  . 19905 1 
+      156 . 1 1  37  37 THR H   H  1   9.378 . . . . . . .  37 T HN  . 19905 1 
+      157 . 1 1  37  37 THR CA  C 13  60.73  . . . . . . .  37 T CA  . 19905 1 
+      158 . 1 1  37  37 THR CB  C 13  69.62  . . . . . . .  37 T CB  . 19905 1 
+      159 . 1 1  38  38 PRO HA  H  1   4.255 . . . . . . .  38 P HA  . 19905 1 
+      160 . 1 1  38  38 PRO C   C 13 178.436 . . . . . . .  38 P CO  . 19905 1 
+      161 . 1 1  39  39 GLY H   H  1  10.998 . . . . . . .  39 G HN  . 19905 1 
+      162 . 1 1  39  39 GLY HA2 H  1   4.071 . . . . . . .  39 G HA# . 19905 1 
+      163 . 1 1  39  39 GLY HA3 H  1   4.071 . . . . . . .  39 G HA# . 19905 1 
+      164 . 1 1  39  39 GLY C   C 13 175.831 . . . . . . .  39 G CO  . 19905 1 
+      165 . 1 1  39  39 GLY CA  C 13  45.609 . . . . . . .  39 G CA  . 19905 1 
+      166 . 1 1  40  40 GLY H   H  1   8.459 . . . . . . .  40 G HN  . 19905 1 
+      167 . 1 1  40  40 GLY HA2 H  1   4.391 . . . . . . .  40 G HA# . 19905 1 
+      168 . 1 1  40  40 GLY HA3 H  1   4.391 . . . . . . .  40 G HA# . 19905 1 
+      169 . 1 1  40  40 GLY C   C 13 174.33  . . . . . . .  40 G CO  . 19905 1 
+      170 . 1 1  40  40 GLY CA  C 13  44.717 . . . . . . .  40 G CA  . 19905 1 
+      171 . 1 1  41  41 THR H   H  1   8.458 . . . . . . .  41 T HN  . 19905 1 
+      172 . 1 1  41  41 THR HA  H  1   4.402 . . . . . . .  41 T HA  . 19905 1 
+      173 . 1 1  41  41 THR C   C 13 173.239 . . . . . . .  41 T CO  . 19905 1 
+      174 . 1 1  41  41 THR CA  C 13  65.84  . . . . . . .  41 T CA  . 19905 1 
+      175 . 1 1  41  41 THR CB  C 13  67.355 . . . . . . .  41 T CB  . 19905 1 
+      176 . 1 1  42  42 LEU H   H  1   9.012 . . . . . . .  42 L HN  . 19905 1 
+      177 . 1 1  42  42 LEU HA  H  1   5.49  . . . . . . .  42 L HA  . 19905 1 
+      178 . 1 1  42  42 LEU C   C 13 176.49  . . . . . . .  42 L CO  . 19905 1 
+      179 . 1 1  42  42 LEU CA  C 13  54.195 . . . . . . .  42 L CA  . 19905 1 
+      180 . 1 1  42  42 LEU CB  C 13  44.48  . . . . . . .  42 L CB  . 19905 1 
+      181 . 1 1  43  43 PHE H   H  1   9.415 . . . . . . .  43 F HN  . 19905 1 
+      182 . 1 1  43  43 PHE HA  H  1   6.233 . . . . . . .  43 F HA  . 19905 1 
+      183 . 1 1  43  43 PHE C   C 13 173.34  . . . . . . .  43 F CO  . 19905 1 
+      184 . 1 1  43  43 PHE CA  C 13  56.269 . . . . . . .  43 F CA  . 19905 1 
+      185 . 1 1  43  43 PHE CB  C 13  43.4   . . . . . . .  43 F CB  . 19905 1 
+      186 . 1 1  44  44 SER H   H  1   9.616 . . . . . . .  44 S HN  . 19905 1 
+      187 . 1 1  44  44 SER HA  H  1   4.833 . . . . . . .  44 S HA  . 19905 1 
+      188 . 1 1  44  44 SER C   C 13 172.769 . . . . . . .  44 S CO  . 19905 1 
+      189 . 1 1  44  44 SER CA  C 13  57.454 . . . . . . .  44 S CA  . 19905 1 
+      190 . 1 1  44  44 SER CB  C 13  65.664 . . . . . . .  44 S CB  . 19905 1 
+      191 . 1 1  45  45 THR H   H  1   8.512 . . . . . . .  45 T HN  . 19905 1 
+      192 . 1 1  45  45 THR HA  H  1   5.701 . . . . . . .  45 T HA  . 19905 1 
+      193 . 1 1  45  45 THR C   C 13 175.586 . . . . . . .  45 T CO  . 19905 1 
+      194 . 1 1  45  45 THR CA  C 13  60.74  . . . . . . .  45 T CA  . 19905 1 
+      195 . 1 1  45  45 THR CB  C 13  71.15  . . . . . . .  45 T CB  . 19905 1 
+      196 . 1 1  46  46 THR H   H  1   9.371 . . . . . . .  46 T HN  . 19905 1 
+      197 . 1 1  46  46 THR CA  C 13  60.83  . . . . . . .  46 T CA  . 19905 1 
+      198 . 1 1  46  46 THR CB  C 13  69.46  . . . . . . .  46 T CB  . 19905 1 
+      199 . 1 1  47  47 PRO HA  H  1   4.275 . . . . . . .  47 P HA  . 19905 1 
+      200 . 1 1  47  47 PRO C   C 13 178.395 . . . . . . .  47 P CO  . 19905 1 
+      201 . 1 1  48  48 GLY H   H  1  11.085 . . . . . . .  48 G HN  . 19905 1 
+      202 . 1 1  48  48 GLY HA2 H  1   4.071 . . . . . . .  48 G HA# . 19905 1 
+      203 . 1 1  48  48 GLY HA3 H  1   4.071 . . . . . . .  48 G HA# . 19905 1 
+      204 . 1 1  48  48 GLY C   C 13 175.828 . . . . . . .  48 G CO  . 19905 1 
+      205 . 1 1  48  48 GLY CA  C 13  45.599 . . . . . . .  48 G CA  . 19905 1 
+      206 . 1 1  49  49 GLY H   H  1   8.459 . . . . . . .  49 G HN  . 19905 1 
+      207 . 1 1  49  49 GLY HA2 H  1   4.391 . . . . . . .  49 G HA# . 19905 1 
+      208 . 1 1  49  49 GLY HA3 H  1   4.391 . . . . . . .  49 G HA# . 19905 1 
+      209 . 1 1  49  49 GLY C   C 13 174.472 . . . . . . .  49 G CO  . 19905 1 
+      210 . 1 1  49  49 GLY CA  C 13  44.713 . . . . . . .  49 G CA  . 19905 1 
+      211 . 1 1  50  50 THR H   H  1   8.458 . . . . . . .  50 T HN  . 19905 1 
+      212 . 1 1  50  50 THR HA  H  1   4.204 . . . . . . .  50 T HA  . 19905 1 
+      213 . 1 1  50  50 THR C   C 13 173.166 . . . . . . .  50 T CO  . 19905 1 
+      214 . 1 1  50  50 THR CA  C 13  65.84  . . . . . . .  50 T CA  . 19905 1 
+      215 . 1 1  50  50 THR CB  C 13  67.355 . . . . . . .  50 T CB  . 19905 1 
+      216 . 1 1  51  51 ARG H   H  1   8.695 . . . . . . .  51 R HN  . 19905 1 
+      217 . 1 1  51  51 ARG HA  H  1   4.975 . . . . . . .  51 R HA  . 19905 1 
+      218 . 1 1  51  51 ARG C   C 13 174.291 . . . . . . .  51 R CO  . 19905 1 
+      219 . 1 1  51  51 ARG CA  C 13  55.74  . . . . . . .  51 R CA  . 19905 1 
+      220 . 1 1  51  51 ARG CB  C 13  31.622 . . . . . . .  51 R CB  . 19905 1 
+      221 . 1 1  52  52 ILE H   H  1   9.307 . . . . . . .  52 I HN  . 19905 1 
+      222 . 1 1  52  52 ILE HA  H  1   4.544 . . . . . . .  52 I HA  . 19905 1 
+      223 . 1 1  52  52 ILE C   C 13 175.057 . . . . . . .  52 I CO  . 19905 1 
+      224 . 1 1  52  52 ILE CA  C 13  59.02  . . . . . . .  52 I CA  . 19905 1 
+      225 . 1 1  52  52 ILE CB  C 13  38.32  . . . . . . .  52 I CB  . 19905 1 
+      226 . 1 1  53  53 ILE H   H  1   8.752 . . . . . . .  53 I HN  . 19905 1 
+      227 . 1 1  53  53 ILE HA  H  1   4.534 . . . . . . .  53 I HA  . 19905 1 
+      228 . 1 1  53  53 ILE C   C 13 175.515 . . . . . . .  53 I CO  . 19905 1 
+      229 . 1 1  53  53 ILE CA  C 13  59.23  . . . . . . .  53 I CA  . 19905 1 
+      230 . 1 1  53  53 ILE CB  C 13  38.71  . . . . . . .  53 I CB  . 19905 1 
+      231 . 1 1  54  54 TYR H   H  1   8.298 . . . . . . .  54 Y HN  . 19905 1 
+      232 . 1 1  54  54 TYR HA  H  1   4.97  . . . . . . .  54 Y HA  . 19905 1 
+      233 . 1 1  54  54 TYR C   C 13 175.012 . . . . . . .  54 Y CO  . 19905 1 
+      234 . 1 1  54  54 TYR CA  C 13  57.242 . . . . . . .  54 Y CA  . 19905 1 
+      235 . 1 1  54  54 TYR CB  C 13  38.756 . . . . . . .  54 Y CB  . 19905 1 
+      236 . 1 1  55  55 ASP H   H  1   8.923 . . . . . . .  55 D HN  . 19905 1 
+      237 . 1 1  55  55 ASP HA  H  1   4.704 . . . . . . .  55 D HA  . 19905 1 
+      238 . 1 1  55  55 ASP C   C 13 176.334 . . . . . . .  55 D CO  . 19905 1 
+      239 . 1 1  55  55 ASP CA  C 13  53.33  . . . . . . .  55 D CA  . 19905 1 
+      240 . 1 1  55  55 ASP CB  C 13  41.94  . . . . . . .  55 D CB  . 19905 1 
+      241 . 1 1  56  56 ARG H   H  1   8.594 . . . . . . .  56 R HN  . 19905 1 
+      242 . 1 1  56  56 ARG HA  H  1   4.293 . . . . . . .  56 R HA  . 19905 1 
+      243 . 1 1  56  56 ARG C   C 13 176.268 . . . . . . .  56 R CO  . 19905 1 
+      244 . 1 1  56  56 ARG CA  C 13  56.32  . . . . . . .  56 R CA  . 19905 1 
+      245 . 1 1  56  56 ARG CB  C 13  30.15  . . . . . . .  56 R CB  . 19905 1 
+      246 . 1 1  57  57 LYS H   H  1   8.699 . . . . . . .  57 K HN  . 19905 1 
+      247 . 1 1  57  57 LYS HA  H  1   4.163 . . . . . . .  57 K HA  . 19905 1 
+      248 . 1 1  57  57 LYS C   C 13 176.719 . . . . . . .  57 K CO  . 19905 1 
+      249 . 1 1  57  57 LYS CA  C 13  57.18  . . . . . . .  57 K CA  . 19905 1 
+      250 . 1 1  57  57 LYS CB  C 13  32.03  . . . . . . .  57 K CB  . 19905 1 
+      251 . 1 1  58  58 PHE H   H  1   7.836 . . . . . . .  58 F HN  . 19905 1 
+      252 . 1 1  58  58 PHE HA  H  1   4.623 . . . . . . .  58 F HA  . 19905 1 
+      253 . 1 1  58  58 PHE C   C 13 175.55  . . . . . . .  58 F CO  . 19905 1 
+      254 . 1 1  58  58 PHE CA  C 13  57.11  . . . . . . .  58 F CA  . 19905 1 
+      255 . 1 1  58  58 PHE CB  C 13  38.85  . . . . . . .  58 F CB  . 19905 1 
+      256 . 1 1  59  59 LEU H   H  1   7.862 . . . . . . .  59 L HN  . 19905 1 
+      257 . 1 1  59  59 LEU HA  H  1   4.255 . . . . . . .  59 L HA  . 19905 1 
+      258 . 1 1  59  59 LEU C   C 13 177.273 . . . . . . .  59 L CO  . 19905 1 
+      259 . 1 1  59  59 LEU CA  C 13  55.36  . . . . . . .  59 L CA  . 19905 1 
+      260 . 1 1  59  59 LEU CB  C 13  42.25  . . . . . . .  59 L CB  . 19905 1 
+      261 . 1 1  60  60 LEU H   H  1   8.154 . . . . . . .  60 L HN  . 19905 1 
+      262 . 1 1  60  60 LEU HA  H  1   4.309 . . . . . . .  60 L HA  . 19905 1 
+      263 . 1 1  60  60 LEU C   C 13 177.082 . . . . . . .  60 L CO  . 19905 1 
+      264 . 1 1  60  60 LEU CA  C 13  55.33  . . . . . . .  60 L CA  . 19905 1 
+      265 . 1 1  60  60 LEU CB  C 13  42.34  . . . . . . .  60 L CB  . 19905 1 
+      266 . 1 1  61  61 ASP H   H  1   8.374 . . . . . . .  61 D HN  . 19905 1 
+      267 . 1 1  61  61 ASP HA  H  1   4.681 . . . . . . .  61 D HA  . 19905 1 
+      268 . 1 1  61  61 ASP C   C 13 176.093 . . . . . . .  61 D CO  . 19905 1 
+      269 . 1 1  61  61 ASP CA  C 13  54.33  . . . . . . .  61 D CA  . 19905 1 
+      270 . 1 1  61  61 ASP CB  C 13  41.14  . . . . . . .  61 D CB  . 19905 1 
+      271 . 1 1  62  62 ARG H   H  1   8.301 . . . . . . .  62 R HN  . 19905 1 
+      272 . 1 1  62  62 ARG HA  H  1   4.338 . . . . . . .  62 R HA  . 19905 1 
+      273 . 1 1  62  62 ARG C   C 13 175.655 . . . . . . .  62 R CO  . 19905 1 
+      274 . 1 1  62  62 ARG CA  C 13  55.818 . . . . . . .  62 R CA  . 19905 1 
+      275 . 1 1  62  62 ARG CB  C 13  30.61  . . . . . . .  62 R CB  . 19905 1 
+      276 . 1 1  63  63 ARG H   H  1   8.433 . . . . . . .  63 R HN  . 19905 1 
+      277 . 1 1  63  63 ARG HA  H  1   4.291 . . . . . . .  63 R HA  . 19905 1 
+      278 . 1 1  63  63 ARG C   C 13 176.179 . . . . . . .  63 R CO  . 19905 1 
+      279 . 1 1  63  63 ARG CA  C 13  55.953 . . . . . . .  63 R CA  . 19905 1 
+      280 . 1 1  63  63 ARG CB  C 13  30.971 . . . . . . .  63 R CB  . 19905 1 
+      281 . 1 1  64  64 ASN H   H  1   8.699 . . . . . . .  64 N HN  . 19905 1 
+      282 . 1 1  64  64 ASN HA  H  1   4.743 . . . . . . .  64 N HA  . 19905 1 
+      283 . 1 1  64  64 ASN C   C 13 174.772 . . . . . . .  64 N CO  . 19905 1 
+      284 . 1 1  64  64 ASN CA  C 13  53.18  . . . . . . .  64 N CA  . 19905 1 
+      285 . 1 1  64  64 ASN CB  C 13  39.208 . . . . . . .  64 N CB  . 19905 1 
+      286 . 1 1  65  65 SER H   H  1   8.167 . . . . . . .  65 S HN  . 19905 1 
+      287 . 1 1  65  65 SER CA  C 13  54.491 . . . . . . .  65 S CA  . 19905 1 
+      288 . 1 1  65  65 SER CB  C 13  66.221 . . . . . . .  65 S CB  . 19905 1 
+      289 . 1 1  66  66 PRO HA  H  1   4.398 . . . . . . .  66 P HA  . 19905 1 
+      290 . 1 1  66  66 PRO C   C 13 176.938 . . . . . . .  66 P CO  . 19905 1 
+      291 . 1 1  67  67 MET H   H  1   8.618 . . . . . . .  67 M HN  . 19905 1 
+      292 . 1 1  67  67 MET HA  H  1   4.456 . . . . . . .  67 M HA  . 19905 1 
+      293 . 1 1  67  67 MET C   C 13 175.925 . . . . . . .  67 M CO  . 19905 1 
+      294 . 1 1  67  67 MET CA  C 13  55.372 . . . . . . .  67 M CA  . 19905 1 
+      295 . 1 1  67  67 MET CB  C 13  33.146 . . . . . . .  67 M CB  . 19905 1 
+      296 . 1 1  68  68 ALA H   H  1   8.466 . . . . . . .  68 A HN  . 19905 1 
+      297 . 1 1  68  68 ALA C   C 13 177.382 . . . . . . .  68 A CO  . 19905 1 
+      298 . 1 1  68  68 ALA CA  C 13  52.738 . . . . . . .  68 A CA  . 19905 1 
+      299 . 1 1  68  68 ALA CB  C 13  19.318 . . . . . . .  68 A CB  . 19905 1 
+      300 . 1 1  69  69 GLN H   H  1   8.495 . . . . . . .  69 Q HN  . 19905 1 
+      301 . 1 1  69  69 GLN HA  H  1   4.363 . . . . . . .  69 Q HA  . 19905 1 
+      302 . 1 1  69  69 GLN C   C 13 175.697 . . . . . . .  69 Q CO  . 19905 1 
+      303 . 1 1  69  69 GLN CA  C 13  55.52  . . . . . . .  69 Q CA  . 19905 1 
+      304 . 1 1  69  69 GLN CB  C 13  30.08  . . . . . . .  69 Q CB  . 19905 1 
+      305 . 1 1  70  70 THR H   H  1   8.948 . . . . . . .  70 T HN  . 19905 1 
+      306 . 1 1  70  70 THR CA  C 13  60.1   . . . . . . .  70 T CA  . 19905 1 
+      307 . 1 1  70  70 THR CB  C 13  73.2   . . . . . . .  70 T CB  . 19905 1 
+      308 . 1 1  72  72 PRO HA  H  1   4.437 . . . . . . .  72 P HA  . 19905 1 
+      309 . 1 1  72  72 PRO C   C 13 176.717 . . . . . . .  72 P CO  . 19905 1 
+      310 . 1 1  73  73 CYS H   H  1   8.546 . . . . . . .  73 C HN  . 19905 1 
+      311 . 1 1  73  73 CYS HA  H  1   4.433 . . . . . . .  73 C HA  . 19905 1 
+      312 . 1 1  73  73 CYS C   C 13 174.252 . . . . . . .  73 C CO  . 19905 1 
+      313 . 1 1  73  73 CYS CA  C 13  58.28  . . . . . . .  73 C CA  . 19905 1 
+      314 . 1 1  73  73 CYS CB  C 13  28.06  . . . . . . .  73 C CB  . 19905 1 
+      315 . 1 1  74  74 HIS H   H  1   8.707 . . . . . . .  74 H HN  . 19905 1 
+      316 . 1 1  74  74 HIS HA  H  1   4.732 . . . . . . .  74 H HA  . 19905 1 
+      317 . 1 1  74  74 HIS C   C 13 174.115 . . . . . . .  74 H CO  . 19905 1 
+      318 . 1 1  74  74 HIS CA  C 13  55.08  . . . . . . .  74 H CA  . 19905 1 
+      319 . 1 1  74  74 HIS CB  C 13  29.6   . . . . . . .  74 H CB  . 19905 1 
+      320 . 1 1  75  75 LEU H   H  1   8.517 . . . . . . .  75 L HN  . 19905 1 
+      321 . 1 1  75  75 LEU CA  C 13  53.1   . . . . . . .  75 L CA  . 19905 1 
+      322 . 1 1  75  75 LEU CB  C 13  41.65  . . . . . . .  75 L CB  . 19905 1 
+      323 . 1 1  76  76 PRO HA  H  1   4.411 . . . . . . .  76 P HA  . 19905 1 
+      324 . 1 1  76  76 PRO C   C 13 176.34  . . . . . . .  76 P CO  . 19905 1 
+      325 . 1 1  77  77 ASN H   H  1   8.635 . . . . . . .  77 N HN  . 19905 1 
+      326 . 1 1  77  77 ASN HA  H  1   4.636 . . . . . . .  77 N HA  . 19905 1 
+      327 . 1 1  77  77 ASN CA  C 13  53.233 . . . . . . .  77 N CA  . 19905 1 
+      328 . 1 1  77  77 ASN CB  C 13  38.935 . . . . . . .  77 N CB  . 19905 1 
+      329 . 1 1  78  78 ILE H   H  1   8.31  . . . . . . .  78 I HN  . 19905 1 
+      330 . 1 1  78  78 ILE CA  C 13  58.575 . . . . . . .  78 I CA  . 19905 1 
+      331 . 1 1  78  78 ILE CB  C 13  39.129 . . . . . . .  78 I CB  . 19905 1 
+      332 . 1 1  79  79 PRO HA  H  1   4.381 . . . . . . .  79 P HA  . 19905 1 
+      333 . 1 1  79  79 PRO C   C 13 177.447 . . . . . . .  79 P CO  . 19905 1 
+      334 . 1 1  80  80 GLY H   H  1   8.678 . . . . . . .  80 G HN  . 19905 1 
+      335 . 1 1  80  80 GLY HA2 H  1   3.956 . . . . . . .  80 G HA# . 19905 1 
+      336 . 1 1  80  80 GLY HA3 H  1   3.956 . . . . . . .  80 G HA# . 19905 1 
+      337 . 1 1  80  80 GLY C   C 13 174.04  . . . . . . .  80 G CO  . 19905 1 
+      338 . 1 1  80  80 GLY CA  C 13  45.261 . . . . . . .  80 G CA  . 19905 1 
+      339 . 1 1  81  81 VAL H   H  1   8.16  . . . . . . .  81 V HN  . 19905 1 
+      340 . 1 1  81  81 VAL HA  H  1   4.221 . . . . . . .  81 V HA  . 19905 1 
+      341 . 1 1  81  81 VAL CA  C 13  62.384 . . . . . . .  81 V CA  . 19905 1 
+      342 . 1 1  81  81 VAL CB  C 13  33.077 . . . . . . .  81 V CB  . 19905 1 
+      343 . 1 1  82  82 THR H   H  1   8.485 . . . . . . .  82 T HN  . 19905 1 
+      344 . 1 1  82  82 THR HA  H  1   4.383 . . . . . . .  82 T HA  . 19905 1 
+      345 . 1 1  82  82 THR C   C 13 174.193 . . . . . . .  82 T CO  . 19905 1 
+      346 . 1 1  82  82 THR CA  C 13  61.79  . . . . . . .  82 T CA  . 19905 1 
+      347 . 1 1  82  82 THR CB  C 13  69.88  . . . . . . .  82 T CB  . 19905 1 
+      348 . 1 1  83  83 SER H   H  1   8.76  . . . . . . .  83 S HN  . 19905 1 
+      349 . 1 1  83  83 SER CA  C 13  55.43  . . . . . . .  83 S CA  . 19905 1 
+      350 . 1 1  83  83 SER CB  C 13  65.53  . . . . . . .  83 S CB  . 19905 1 
+      351 . 1 1  84  84 PRO HA  H  1   4.396 . . . . . . .  84 P HA  . 19905 1 
+      352 . 1 1  84  84 PRO C   C 13 177.679 . . . . . . .  84 P CO  . 19905 1 
+      353 . 1 1  85  85 GLY H   H  1   8.634 . . . . . . .  85 G HN  . 19905 1 
+      354 . 1 1  85  85 GLY HA2 H  1   3.974 . . . . . . .  85 G HA# . 19905 1 
+      355 . 1 1  85  85 GLY HA3 H  1   3.974 . . . . . . .  85 G HA# . 19905 1 
+      356 . 1 1  85  85 GLY C   C 13 174.498 . . . . . . .  85 G CO  . 19905 1 
+      357 . 1 1  85  85 GLY CA  C 13  45.543 . . . . . . .  85 G CA  . 19905 1 
+      358 . 1 1  86  86 THR H   H  1   8.118 . . . . . . .  86 T HN  . 19905 1 
+      359 . 1 1  86  86 THR HA  H  1   4.259 . . . . . . .  86 T HA  . 19905 1 
+      360 . 1 1  86  86 THR C   C 13 174.347 . . . . . . .  86 T CO  . 19905 1 
+      361 . 1 1  86  86 THR CA  C 13  69.734 . . . . . . .  86 T CA  . 19905 1 
+      362 . 1 1  87  87 LEU H   H  1   8.433 . . . . . . .  87 L HN  . 19905 1 
+      363 . 1 1  87  87 LEU HA  H  1   4.636 . . . . . . .  87 L HA  . 19905 1 
+      364 . 1 1  87  87 LEU C   C 13 177.093 . . . . . . .  87 L CO  . 19905 1 
+      365 . 1 1  87  87 LEU CA  C 13  55.33  . . . . . . .  87 L CA  . 19905 1 
+      366 . 1 1  87  87 LEU CB  C 13  42.28  . . . . . . .  87 L CB  . 19905 1 
+      367 . 1 1  88  88 ILE H   H  1   8.342 . . . . . . .  88 I HN  . 19905 1 
+      368 . 1 1  88  88 ILE HA  H  1   4.128 . . . . . . .  88 I HA  . 19905 1 
+      369 . 1 1  88  88 ILE C   C 13 176.292 . . . . . . .  88 I CO  . 19905 1 
+      370 . 1 1  88  88 ILE CA  C 13  61.05  . . . . . . .  88 I CA  . 19905 1 
+      371 . 1 1  88  88 ILE CB  C 13  38.76  . . . . . . .  88 I CB  . 19905 1 
+      372 . 1 1  89  89 GLU H   H  1   8.658 . . . . . . .  89 E HN  . 19905 1 
+      373 . 1 1  89  89 GLU HA  H  1   4.277 . . . . . . .  89 E HA  . 19905 1 
+      374 . 1 1  89  89 GLU C   C 13 175.674 . . . . . . .  89 E CO  . 19905 1 
+      375 . 1 1  89  89 GLU CA  C 13  56.53  . . . . . . .  89 E CA  . 19905 1 
+      376 . 1 1  89  89 GLU CB  C 13  30.398 . . . . . . .  89 E CB  . 19905 1 
+      377 . 1 1  90  90 ASP H   H  1   8.576 . . . . . . .  90 D HN  . 19905 1 
+      378 . 1 1  90  90 ASP HA  H  1   4.592 . . . . . . .  90 D HA  . 19905 1 
+      379 . 1 1  90  90 ASP C   C 13 176.429 . . . . . . .  90 D CO  . 19905 1 
+      380 . 1 1  90  90 ASP CA  C 13  54.44  . . . . . . .  90 D CA  . 19905 1 
+      381 . 1 1  90  90 ASP CB  C 13  41.008 . . . . . . .  90 D CB  . 19905 1 
+      382 . 1 1  91  91 SER H   H  1   8.434 . . . . . . .  91 S HN  . 19905 1 
+      383 . 1 1  91  91 SER HA  H  1   4.397 . . . . . . .  91 S HA  . 19905 1 
+      384 . 1 1  91  91 SER C   C 13 174.679 . . . . . . .  91 S CO  . 19905 1 
+      385 . 1 1  91  91 SER CA  C 13  63.609 . . . . . . .  91 S CA  . 19905 1 
+      386 . 1 1  91  91 SER CB  C 13  58.66  . . . . . . .  91 S CB  . 19905 1 
+      387 . 1 1  92  92 LYS H   H  1   8.478 . . . . . . .  92 K HN  . 19905 1 
+      388 . 1 1  92  92 LYS HA  H  1   4.34  . . . . . . .  92 K HA  . 19905 1 
+      389 . 1 1  92  92 LYS C   C 13 176.522 . . . . . . .  92 K CO  . 19905 1 
+      390 . 1 1  92  92 LYS CA  C 13  56.28  . . . . . . .  92 K CA  . 19905 1 
+      391 . 1 1  92  92 LYS CB  C 13  32.8   . . . . . . .  92 K CB  . 19905 1 
+      392 . 1 1  93  93 VAL H   H  1   8.164 . . . . . . .  93 V HN  . 19905 1 
+      393 . 1 1  93  93 VAL HA  H  1   4.062 . . . . . . .  93 V HA  . 19905 1 
+      394 . 1 1  93  93 VAL C   C 13 176.107 . . . . . . .  93 V CO  . 19905 1 
+      395 . 1 1  93  93 VAL CA  C 13  62.45  . . . . . . .  93 V CA  . 19905 1 
+      396 . 1 1  93  93 VAL CB  C 13  32.82  . . . . . . .  93 V CB  . 19905 1 
+      397 . 1 1  94  94 GLU H   H  1   8.632 . . . . . . .  94 E HN  . 19905 1 
+      398 . 1 1  94  94 GLU HA  H  1   4.333 . . . . . . .  94 E HA  . 19905 1 
+      399 . 1 1  94  94 GLU C   C 13 176.519 . . . . . . .  94 E CO  . 19905 1 
+      400 . 1 1  94  94 GLU CA  C 13  56.426 . . . . . . .  94 E CA  . 19905 1 
+      401 . 1 1  94  94 GLU CB  C 13  30.55  . . . . . . .  94 E CB  . 19905 1 
+      402 . 1 1  95  95 VAL H   H  1   8.388 . . . . . . .  95 V HN  . 19905 1 
+      403 . 1 1  95  95 VAL HA  H  1   4.067 . . . . . . .  95 V HA  . 19905 1 
+      404 . 1 1  95  95 VAL C   C 13 175.95  . . . . . . .  95 V CO  . 19905 1 
+      405 . 1 1  95  95 VAL CA  C 13  62.58  . . . . . . .  95 V CA  . 19905 1 
+      406 . 1 1  95  95 VAL CB  C 13  32.74  . . . . . . .  95 V CB  . 19905 1 
+      407 . 1 1  96  96 ASN H   H  1   8.668 . . . . . . .  96 N HN  . 19905 1 
+      408 . 1 1  96  96 ASN HA  H  1   4.711 . . . . . . .  96 N HA  . 19905 1 
+      409 . 1 1  96  96 ASN C   C 13 174.985 . . . . . . .  96 N CO  . 19905 1 
+      410 . 1 1  96  96 ASN CA  C 13  53.293 . . . . . . .  96 N CA  . 19905 1 
+      411 . 1 1  96  96 ASN CB  C 13  38.961 . . . . . . .  96 N CB  . 19905 1 
+      412 . 1 1  97  97 ASN H   H  1   8.564 . . . . . . .  97 N HN  . 19905 1 
+      413 . 1 1  97  97 ASN HA  H  1   4.681 . . . . . . .  97 N HA  . 19905 1 
+      414 . 1 1  97  97 ASN C   C 13 175.466 . . . . . . .  97 N CO  . 19905 1 
+      415 . 1 1  97  97 ASN CA  C 13  53.46  . . . . . . .  97 N CA  . 19905 1 
+      416 . 1 1  97  97 ASN CB  C 13  38.824 . . . . . . .  97 N CB  . 19905 1 
+      417 . 1 1  98  98 LEU H   H  1   8.279 . . . . . . .  98 L HN  . 19905 1 
+      418 . 1 1  98  98 LEU HA  H  1   4.261 . . . . . . .  98 L HA  . 19905 1 
+      419 . 1 1  98  98 LEU C   C 13 177.495 . . . . . . .  98 L CO  . 19905 1 
+      420 . 1 1  98  98 LEU CA  C 13  55.73  . . . . . . .  98 L CA  . 19905 1 
+      421 . 1 1  98  98 LEU CB  C 13  42.14  . . . . . . .  98 L CB  . 19905 1 
+      422 . 1 1  99  99 ASN H   H  1   8.485 . . . . . . .  99 N HN  . 19905 1 
+      423 . 1 1  99  99 ASN HA  H  1   4.648 . . . . . . .  99 N HA  . 19905 1 
+      424 . 1 1  99  99 ASN C   C 13 175.137 . . . . . . .  99 N CO  . 19905 1 
+      425 . 1 1  99  99 ASN CA  C 13  53.25  . . . . . . .  99 N CA  . 19905 1 
+      426 . 1 1  99  99 ASN CB  C 13  38.849 . . . . . . .  99 N CB  . 19905 1 
+      427 . 1 1 100 100 ASN H   H  1   8.342 . . . . . . . 100 N HN  . 19905 1 
+      428 . 1 1 100 100 ASN HA  H  1   4.699 . . . . . . . 100 N HA  . 19905 1 
+      429 . 1 1 100 100 ASN C   C 13 175.526 . . . . . . . 100 N CO  . 19905 1 
+      430 . 1 1 100 100 ASN CA  C 13  53.413 . . . . . . . 100 N CA  . 19905 1 
+      431 . 1 1 100 100 ASN CB  C 13  38.827 . . . . . . . 100 N CB  . 19905 1 
+      432 . 1 1 101 101 LEU H   H  1   8.412 . . . . . . . 101 L HN  . 19905 1 
+      433 . 1 1 101 101 LEU HA  H  1   4.372 . . . . . . . 101 L HA  . 19905 1 
+      434 . 1 1 101 101 LEU CA  C 13  53.432 . . . . . . . 101 L CA  . 19905 1 
+      435 . 1 1 101 101 LEU CB  C 13  41.97  . . . . . . . 101 L CB  . 19905 1 
+      436 . 1 1 102 102 ASN H   H  1   8.342 . . . . . . . 102 N HN  . 19905 1 
+      437 . 1 1 102 102 ASN CA  C 13  58.322 . . . . . . . 102 N CA  . 19905 1 
+      438 . 1 1 102 102 ASN CB  C 13  38.765 . . . . . . . 102 N CB  . 19905 1 
+      439 . 1 1 105 105 ASP HA  H  1   4.699 . . . . . . . 105 D HA  . 19905 1 
+      440 . 1 1 105 105 ASP C   C 13 175.563 . . . . . . . 105 D CO  . 19905 1 
+      441 . 1 1 105 105 ASP CA  C 13  54.516 . . . . . . . 105 D CA  . 19905 1 
+      442 . 1 1 105 105 ASP CB  C 13  41.084 . . . . . . . 105 D CB  . 19905 1 
+      443 . 1 1 106 106 ARG H   H  1   8.412 . . . . . . . 106 R HN  . 19905 1 
+      444 . 1 1 106 106 ARG HA  H  1   4.279 . . . . . . . 106 R HA  . 19905 1 
+      445 . 1 1 106 106 ARG C   C 13 176.338 . . . . . . . 106 R CO  . 19905 1 
+      446 . 1 1 106 106 ARG CA  C 13  56.35  . . . . . . . 106 R CA  . 19905 1 
+      447 . 1 1 106 106 ARG CB  C 13  30.32  . . . . . . . 106 R CB  . 19905 1 
+      448 . 1 1 107 107 LYS H   H  1   8.496 . . . . . . . 107 K HN  . 19905 1 
+      449 . 1 1 107 107 LYS HA  H  1   4.222 . . . . . . . 107 K HA  . 19905 1 
+      450 . 1 1 107 107 LYS C   C 13 176.454 . . . . . . . 107 K CO  . 19905 1 
+      451 . 1 1 107 107 LYS CA  C 13  56.39  . . . . . . . 107 K CA  . 19905 1 
+      452 . 1 1 107 107 LYS CB  C 13  32.89  . . . . . . . 107 K CB  . 19905 1 
+      453 . 1 1 108 108 HIS H   H  1   8.564 . . . . . . . 108 H HN  . 19905 1 
+      454 . 1 1 108 108 HIS HA  H  1   4.66  . . . . . . . 108 H HA  . 19905 1 
+      455 . 1 1 108 108 HIS C   C 13 174.026 . . . . . . . 108 H CO  . 19905 1 
+      456 . 1 1 108 108 HIS CA  C 13  55.293 . . . . . . . 108 H CA  . 19905 1 
+      457 . 1 1 108 108 HIS CB  C 13  29.55  . . . . . . . 108 H CB  . 19905 1 
+      458 . 1 1 109 109 ALA H   H  1   8.578 . . . . . . . 109 A HN  . 19905 1 
+      459 . 1 1 109 109 ALA HA  H  1   4.363 . . . . . . . 109 A HA  . 19905 1 
+      460 . 1 1 109 109 ALA C   C 13 177.529 . . . . . . . 109 A CO  . 19905 1 
+      461 . 1 1 109 109 ALA CA  C 13  52.26  . . . . . . . 109 A CA  . 19905 1 
+      462 . 1 1 109 109 ALA CB  C 13  19.63  . . . . . . . 109 A CB  . 19905 1 
+      463 . 1 1 110 110 VAL H   H  1   8.404 . . . . . . . 110 V HN  . 19905 1 
+      464 . 1 1 110 110 VAL HA  H  1   4.09  . . . . . . . 110 V HA  . 19905 1 
+      465 . 1 1 110 110 VAL C   C 13 176.791 . . . . . . . 110 V CO  . 19905 1 
+      466 . 1 1 110 110 VAL CA  C 13  62.64  . . . . . . . 110 V CA  . 19905 1 
+      467 . 1 1 110 110 VAL CB  C 13  32.79  . . . . . . . 110 V CB  . 19905 1 
+      468 . 1 1 111 111 GLY H   H  1   8.668 . . . . . . . 111 G HN  . 19905 1 
+      469 . 1 1 111 111 GLY HA2 H  1   4.02  . . . . . . . 111 G HA# . 19905 1 
+      470 . 1 1 111 111 GLY HA3 H  1   4.02  . . . . . . . 111 G HA# . 19905 1 
+      471 . 1 1 111 111 GLY C   C 13 174.16  . . . . . . . 111 G CO  . 19905 1 
+      472 . 1 1 111 111 GLY CA  C 13  45.23  . . . . . . . 111 G CA  . 19905 1 
+      473 . 1 1 112 112 ASP H   H  1   8.374 . . . . . . . 112 D HN  . 19905 1 
+      474 . 1 1 112 112 ASP HA  H  1   4.599 . . . . . . . 112 D HA  . 19905 1 
+      475 . 1 1 112 112 ASP C   C 13 176.222 . . . . . . . 112 D CO  . 19905 1 
+      476 . 1 1 112 112 ASP CA  C 13  54.553 . . . . . . . 112 D CA  . 19905 1 
+      477 . 1 1 112 112 ASP CB  C 13  41.153 . . . . . . . 112 D CB  . 19905 1 
+      478 . 1 1 113 113 ASP H   H  1   8.495 . . . . . . . 113 D HN  . 19905 1 
+      479 . 1 1 113 113 ASP HA  H  1   4.544 . . . . . . . 113 D HA  . 19905 1 
+      480 . 1 1 113 113 ASP C   C 13 176.23  . . . . . . . 113 D CO  . 19905 1 
+      481 . 1 1 113 113 ASP CA  C 13  54.561 . . . . . . . 113 D CA  . 19905 1 
+      482 . 1 1 113 113 ASP CB  C 13  41.03  . . . . . . . 113 D CB  . 19905 1 
+      483 . 1 1 114 114 ALA H   H  1   8.276 . . . . . . . 114 A HN  . 19905 1 
+      484 . 1 1 114 114 ALA HA  H  1   4.217 . . . . . . . 114 A HA  . 19905 1 
+      485 . 1 1 114 114 ALA C   C 13 177.732 . . . . . . . 114 A CO  . 19905 1 
+      486 . 1 1 114 114 ALA CA  C 13  52.87  . . . . . . . 114 A CA  . 19905 1 
+      487 . 1 1 114 114 ALA CB  C 13  19.15  . . . . . . . 114 A CB  . 19905 1 
+      488 . 1 1 115 115 GLN H   H  1   8.342 . . . . . . . 115 Q HN  . 19905 1 
+      489 . 1 1 115 115 GLN HA  H  1   4.217 . . . . . . . 115 Q HA  . 19905 1 
+      490 . 1 1 115 115 GLN C   C 13 175.698 . . . . . . . 115 Q CO  . 19905 1 
+      491 . 1 1 115 115 GLN CA  C 13  55.94  . . . . . . . 115 Q CA  . 19905 1 
+      492 . 1 1 115 115 GLN CB  C 13  29.377 . . . . . . . 115 Q CB  . 19905 1 
+      493 . 1 1 116 116 PHE H   H  1   8.243 . . . . . . . 116 F HN  . 19905 1 
+      494 . 1 1 116 116 PHE HA  H  1   4.634 . . . . . . . 116 F HA  . 19905 1 
+      495 . 1 1 116 116 PHE C   C 13 175.562 . . . . . . . 116 F CO  . 19905 1 
+      496 . 1 1 116 116 PHE CA  C 13  57.61  . . . . . . . 116 F CA  . 19905 1 
+      497 . 1 1 116 116 PHE CB  C 13  39.695 . . . . . . . 116 F CB  . 19905 1 
+      498 . 1 1 117 117 GLU H   H  1   8.412 . . . . . . . 117 E HN  . 19905 1 
+      499 . 1 1 117 117 GLU HA  H  1   4.255 . . . . . . . 117 E HA  . 19905 1 
+      500 . 1 1 117 117 GLU C   C 13 175.906 . . . . . . . 117 E CO  . 19905 1 
+      501 . 1 1 117 117 GLU CA  C 13  56.354 . . . . . . . 117 E CA  . 19905 1 
+      502 . 1 1 117 117 GLU CB  C 13  30.315 . . . . . . . 117 E CB  . 19905 1 
+      503 . 1 1 118 118 MET H   H  1   8.423 . . . . . . . 118 M HN  . 19905 1 
+      504 . 1 1 118 118 MET HA  H  1   4.464 . . . . . . . 118 M HA  . 19905 1 
+      505 . 1 1 118 118 MET C   C 13 175.678 . . . . . . . 118 M CO  . 19905 1 
+      506 . 1 1 118 118 MET CA  C 13  55.35  . . . . . . . 118 M CA  . 19905 1 
+      507 . 1 1 118 118 MET CB  C 13  33.43  . . . . . . . 118 M CB  . 19905 1 
+      508 . 1 1 119 119 ASP H   H  1   8.576 . . . . . . . 119 D HN  . 19905 1 
+      509 . 1 1 119 119 ASP HA  H  1   4.655 . . . . . . . 119 D HA  . 19905 1 
+      510 . 1 1 119 119 ASP C   C 13 174.961 . . . . . . . 119 D CO  . 19905 1 
+      511 . 1 1 119 119 ASP CA  C 13  54.44  . . . . . . . 119 D CA  . 19905 1 
+      512 . 1 1 119 119 ASP CB  C 13  41.01  . . . . . . . 119 D CB  . 19905 1 
+      513 . 1 1 120 120 ILE H   H  1   7.758 . . . . . . . 120 I HN  . 19905 1 
+      514 . 1 1 120 120 ILE CA  C 13  62.75  . . . . . . . 120 I CA  . 19905 1 
+      515 . 1 1 120 120 ILE CB  C 13  39.837 . . . . . . . 120 I CB  . 19905 1 
+
+   stop_
+
+save_
+

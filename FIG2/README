@@ -1,1 +1,18 @@
+input:
+-- BMRB files (NMR-Star format) with resonance assignments
+-- SPARTA+ prediction files (.pred) with predicted chemical shifts 
+-- PDB files that were used for the SPARTA+ calculations (via the Bax Lab webserver)
 
+output:
+-- SSP-formatted chemical shifts (.co, .ca, .cb, etc)
+-- a matrix of residue numbers and chemical shifts (output_.txt)
+
+disorder_prediction:
+-- includes predicted values of per-residue intrinsic disorder propensity as obtained with the following software programs:
+  -- metapredict
+  -- IUPred2A
+  -- SPOT-Disorder v1
+  -- DISOPRED3 
+  
+  SSP:
+  -- the input and output files for the software program SSP

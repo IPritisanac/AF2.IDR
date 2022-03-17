@@ -14,7 +14,7 @@ Step #2
 -- type "python split_by_order.py"
 -- this script reads the output from step #1 (per-residue pLDDTT scores) and the predicted disordered regions
 
-output: the per-residue pLDDT scores split into ordered and disordered regions. 
+output: the per-residue pLDDT scores split into ordered and disordered regions (in /out)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 

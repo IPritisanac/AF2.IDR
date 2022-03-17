@@ -1,7 +1,7 @@
 #!/bin/bash
 
 dirs=`find . -maxdepth 1 -mindepth 1 -type d`
-path_db=/neuhaus/iva/ncbi-blast-2.8.1+/bin/cullpdb_pc30.0_res0.0-3.5_noBrks_noDsdr_len40-10000_R1.0_Xray+Nmr+EM_d2021_12_07_chains7046.fasta
+path_db=pdb75
 
 for dir in $dirs
 do

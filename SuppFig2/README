@@ -1,1 +1,3 @@
 NOTE: a file containing the per-residue pLDDT scores is required. This file is 200+ MB and can be obtained as described in the FIG1 directory
+
+The human_disprot.txt file contains all IDR regions (UniProt, starting residue, ending residue) that are available in DisProt
